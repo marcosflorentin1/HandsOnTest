@@ -162,49 +162,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Scripts\ng-employee\dist\ng-employee\favicon.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\index.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\main.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\main.js.map">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\polyfills.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\polyfills.js.map">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\runtime.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\runtime.js.map">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\styles.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\styles.css.map">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\vendor.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\dist\ng-employee\vendor.js.map">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Scripts\ng-employee\src\app\app.component.css" />
-    <Content Include="Scripts\ng-employee\src\app\app.component.html" />
-    <Content Include="Scripts\ng-employee\src\app\employee-table\employee-table.component.css" />
-    <Content Include="Scripts\ng-employee\src\app\employee-table\employee-table.component.html" />
-    <Content Include="Scripts\ng-employee\src\favicon.ico" />
-    <Content Include="Scripts\ng-employee\src\index.html" />
-    <Content Include="Scripts\ng-employee\src\styles.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -217,13 +174,10 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\ng-employee\src\assets\.gitkeep" />
-    <Content Include="Scripts\tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\ng-employee\src\app\services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -237,17 +191,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="Scripts\ng-employee\src\app\app.component.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\app\app.module.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\app\employee-table\employee-table.component.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\app\models\Employee.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\environments\environment.prod.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\environments\environment.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\main.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\polyfills.ts" />
-    <TypeScriptCompile Include="Scripts\ng-employee\src\test.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
